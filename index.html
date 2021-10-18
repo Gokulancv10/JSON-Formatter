@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>JSON Formatter</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <textarea name="" id="largeAreaInput" class="large-area large-area--input" placeholder="Paste your JSON code here..." required>
+            {
+                "char_id": 1,
+                "name": "Walter White",
+                "birthday": "09-07-1958",
+                "occupation": [
+                    "High School Chemistry Teacher",
+                    "Meth King Pin"
+                ],
+                "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg",
+                "status": "Deceased",
+                "appearance": [1, 2, 3, 4, 5],
+                "nickname": "Heisenberg",
+                "portrayed": "Bryan Cranston"
+            }
+        </textarea>
+        <div class="controls">
+            <button class="btn btn--format" id="btnFormatter">Format</button>
+            <button class="btn btn--minify" id="btnMinify">Minify</button>
+        </div>
+        <textarea readonly name="" id="largeAreaOutput" class="large-area large-area--output" placeholder="Your JSON will appear here...">
+
+        </textarea>
+    </div>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
