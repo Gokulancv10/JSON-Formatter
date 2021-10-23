@@ -33,7 +33,7 @@ body {
     outline: none;
     border: none;
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px 35px;
     color: rgb(166, 168, 170);
     resize: none;
 }
@@ -67,4 +67,15 @@ body {
 
 .btn:hover {
     background-color: rgb(233, 131, 131);
+}
+
+.copy-to-clipboard {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right: 30px;
 }
